@@ -1,0 +1,37 @@
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: block;
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  object-fit: cover;
+  border: 2px solid #ccc; /* Border color */
+  border-radius: 5px; /* Border radius */
+  margin: 0 auto; /* Center the image */
+}
+
+.image-container input[type="file"] {
+  display: block;
+  margin: 10px auto; /* Adjust as needed */
+}
+
+.image-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.image-container input[type="submit"] {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.image-container input[type="submit"]:hover {
+  background-color: #0056b3; /* Hover background color */
+}
